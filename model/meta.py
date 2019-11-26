@@ -12,7 +12,11 @@ class ModelMeta:
 
     __metaclass__ = ABCMeta
 
-    def __init__(self, input_shape, dimensions):
+    def __init__(self, X, Y, dimensions=[2,4,1]):
+        '''Constructor of the model'''
+        pass
+
+    def initialize(self, input_shape, dimensions):
         '''Initializes the weights according to input shape and dimensions'''
         pass
 

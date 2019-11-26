@@ -9,7 +9,7 @@ def init_parameters(n_x, n_h):
         Output:
                 W, b: Weight matrix and bias matrix for the given layer.
     '''
-    W = np.random.rand(n_h, n_x) * 0.01
+    W = np.random.randn(n_h, n_x) * 0.01
     b = np.zeros((n_h, 1))
     return W, b
 
