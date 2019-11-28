@@ -12,7 +12,7 @@ class ModelMeta:
 
     __metaclass__ = ABCMeta
 
-    def __init__(self, X, Y, dimensions=[2,4,1]):
+    def __init__(self, X, Y, dimensions=[2,4,1], activations=['relu', 'relu', 'sigmoid']):
         '''Constructor of the model'''
         pass
 
